@@ -25,7 +25,7 @@ dayup = pow((1-dayfactor),d)*pow((1+dayfactor),w)
 print("total daydayup {:.2f} ".format(dayup)) s
 
 '''
-
+'''
 #daydayupPRO.py
 def dayup(df): #def 用于设置函数 df是占位符
     dayup=1  
@@ -40,5 +40,17 @@ while dayup(dayfactor) < 37.78:
     dayfactor = dayfactor + 0.001
 
 dayfactor*=100
-print("weekdays needed power: {:.3f}%".format(dayfactor))
-print("the power is: ",dayfactor)
+print("weekdays needed power: {:.2f}%".format(dayfactor))
+print("the power is:{:.2f} ".format(dayfactor))
+'''
+def grit(df):
+    dup = 1 # dayup
+    td = 365 # total day
+    for i in range (td):
+        if i % 11 in range(4,8):
+            dup = dup * (1+df)
+        else:
+            dup = dup * 1
+    return dup
+x = 0.01
+print("连续学习365天后的能力值为 {:.2f}".format(grit(x)))
