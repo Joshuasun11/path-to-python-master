@@ -1,2 +1,2 @@
-
-    for c in s: #repeat every characters of hello from here
+ #printer = t.Turtle()
+    #printer.hideturtle() #多加了一个乌龟

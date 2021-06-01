@@ -84,8 +84,13 @@ for i in range(11):
     else:
         print("|"+"|".center(21," ")+"|")
 '''
+'''
 from tqdm import tqdm
 from time import sleep
+import numpy as np
 
 for i in tqdm(range(100)):
     sleep(0.1)
+'''
+a = 3/4
+print(a)

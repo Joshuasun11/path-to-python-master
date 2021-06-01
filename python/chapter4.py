@@ -1,3 +1,4 @@
+
 '''
 try:
     num =eval(input("please input a number:"))
@@ -26,6 +27,8 @@ else:
     who,nat = "肥胖","肥胖"
 print("BMI指标为：国际'{0}',国内'{0}'".format(who,nat))
 '''
+
+'''
 s = "hello"
 while s != "":
     for c in s: #repeat every characters of hello from here
@@ -40,3 +43,8 @@ while s != "":
     #print("\n*****one full loop, the {0} been deleted and remaining:".format(c)+s+"*****") #for continue loop
     print("\n*****one full loop, the '{0}' been deleted and remaining: '{1}'".format(s1,s)+"*****")  #for 'break' loop, once the 'if' detect the first l
                                                                                             #the for loop finished. the c would be "l"
+    
+'''
+import random
+random.seed(10)
+print(random.random())

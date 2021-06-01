@@ -1,6 +1,6 @@
 #snake.py
 import turtle as t
-t.setup(650,350,200,200)
+t.setup(350,350,200,200)  # (width=650, height=350, startx=200, starty=200)
 t.pu()
 t.goto(-250,0)
 t.pd()
