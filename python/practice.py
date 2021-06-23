@@ -10,3 +10,12 @@ print(a)
 '''
 
 #'''
+import turtle
+i = int(input('你想要几边来密封呢？'))
+angle = 360.0 / i
+distance = 1000.0 / i
+turtle.begin_fill()
+turtle.color("yellow")
+turtle.circle(distance,steps=i)
+turtle.end_fill()
+turtle.done()
