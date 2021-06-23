@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "C:\\Users\\longb\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
+    "python.pythonPath": "venv\\Scripts\\python.exe",
     //"python.venvPath": "C:\\Users\\longb\\projects\\python\\venv",
     "cSpell.words": [
         "daydayup"
