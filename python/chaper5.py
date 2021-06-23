@@ -22,16 +22,19 @@ def func(n):
 print(func(n),y)
 '''
 
+'''
 def rvs(s):
     if s=="":
         return s
     else:
         return rvs(s[1:])+s[0]
-        
-      
+          
 l="12345"
 #print(rvs(l))
 l2=rvs(l)
 print(l2)
 print(l2[::-1])
+'''
+def test(x):
+    return 0
 
