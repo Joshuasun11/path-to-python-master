@@ -66,5 +66,5 @@ for i in range(1,DARTS+1):
      if dist <= 1.0:
           bingo = bingo + 1
      pi = 4 * (bingo/DARTS)
-print("The pi is: {}".format(pi))
-print("\nTime consumed: {:.5f}".format(perf_counter()-start))
+print("The pi is: {:<10f}".format(pi))
+print("\nTime consumed: {0:.5f}".format(perf_counter()-start))
