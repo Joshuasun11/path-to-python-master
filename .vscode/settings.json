@@ -4,5 +4,6 @@
     "python.defaultInterpreterPath": "C:\\Users\\longb\\AppData\\Local\\Programs\\Python\\Python39\\python.exe",
     "cSpell.words": [
         "daydayup"
-    ]
+    ],
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }
